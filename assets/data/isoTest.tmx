@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-down" width="50" height="100" tilewidth="32" tileheight="16">
+ <tileset firstgid="1" name="landscape" tilewidth="32" tileheight="29">
+  <tileoffset x="0" y="8"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="bridge"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/bridge (1).png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="bridge"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/bridge (2).png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="bridge"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/bridge (3).png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="bridge"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/bridge (4).png"/>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" value="sand"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/desert.png"/>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="type" value="ice"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/ice.png"/>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="type" value="plain"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/plains.png"/>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="type" value="rocky"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/rocky.png"/>
+  </tile>
+  <tile id="8">
+   <image width="8" height="23" source="../images/tiles/tree (1).png"/>
+  </tile>
+  <tile id="9">
+   <image width="8" height="29" source="../images/tiles/tree (2).png"/>
+  </tile>
+  <tile id="10">
+   <image width="8" height="23" source="../images/tiles/tree (3).png"/>
+  </tile>
+  <tile id="11">
+   <image width="8" height="27" source="../images/tiles/tree (4).png"/>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (1).png"/>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (2).png"/>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (3).png"/>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (4).png"/>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (5).png"/>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (6).png"/>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (7).png"/>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (8).png"/>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="19" source="../images/tiles/water (9).png"/>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (10).png"/>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (11).png"/>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (12).png"/>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (13).png"/>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (14).png"/>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="19" source="../images/tiles/water (15).png"/>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (16).png"/>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (17).png"/>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (18).png"/>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (19).png"/>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (20).png"/>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (21).png"/>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (22).png"/>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (23).png"/>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (24).png"/>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (25).png"/>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (26).png"/>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (27).png"/>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="20" source="../images/tiles/water (28).png"/>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (29).png"/>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (30).png"/>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/water (31).png"/>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+   <image width="32" height="23" source="../images/tiles/water (32).png"/>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="type" value="woods"/>
+   </properties>
+   <image width="32" height="24" source="../images/tiles/woods.png"/>
+  </tile>
+ </tileset>
+ <layer name="background" width="50" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt101uwyAQhmEcqXU2HCX3v143QUJTfgaGgW8wCxSldiiPX5sot3PuVhxeef4ZYwfDbpbjwBoIDk+GFcsPGdQR/o5syDlSLks9qGEnR3wM2aLlQO3Rs7YVPUqG3Rxhbdz1oTsupgHZwb3WnnneSEfNkHOUxux7q9dRs1hxoD3r2o5ZFo6BOtAMvQ5Ei3aP3RyaFq4h5fg0jPh8NEevRcNwdzjCelocsfv0KI8ZPXZzaO5ZT+/R+6yjOXa5r9AsLY7X91XyfCA4whp6e1xkHqsO7/ZyhLkux/uNP3qMdNQMVhwt/+84MBxaluM4DlQHgmVVD21Hq4Wu6c0c/vuK1KPVET6j6ZjZY9S9Fc8zu8fb1R2/zJFyIPXgGnboEeZYvV+VLBxD7r5qNXzcuh7xNbTaw7v/99aqHqMcuR5XoyOeZ0YPn3gv2XdX9aAO6fPR2yN20O/jmoMarPZIOaz1SBmkPeJzLDue3sOT9yMckucDyXF6zHfkDJIe9LjVHilHmKvmeG3QI+W02CPnyFl69qu7MmftGEqPFkfJotXjlTHkepQMHKNWj9Jz3tsjd4zuRSN7cPerET1WOVrXqXVfzXZwjC0Giw5Jj5LBUg8kx1N6pAaio9Yj56gZUg7JnqvVo8ch7dFjmd2Da5B8HqWH9Hjq/JoBvUf4fTDaIbW0OFoM6D1ugWPE9RzRQ+rYpceIdYy0aDhmG7TWMXOO1WtAMOzSA8XwBwsH7Yc=
+  </data>
+ </layer>
+ <objectgroup name="entities">
+  <object name="playerPos" x="112" y="344"/>
+  <object name="enemyPos" x="1392" y="184"/>
+ </objectgroup>
+</map>

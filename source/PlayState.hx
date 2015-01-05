@@ -1,22 +1,34 @@
 package;
 
-import flixel.FlxG;
-import flixel.FlxSprite;
+import flixel.addons.editors.tiled.TiledMap;
+import flixel.addons.editors.tiled.TiledTileSet;
 import flixel.FlxState;
-import flixel.text.FlxText;
-import flixel.ui.FlxButton;
-import flixel.util.FlxMath;
 
 /**
  * A FlxState which can be used for the actual gameplay.
  */
 class PlayState extends FlxState
 {
+	private var _map:TiledMap;
+	private var _tileSet:TiledTileSet;
+
 	/**
 	 * Function that is called up when to state is created to set it up. 
 	 */
 	override public function create():Void
 	{
+		// Load the tilemap
+		_map = new MapLoader(AssetPaths.map__tmx);
+		trace(_map.width);
+		trace(_map.height);
+		trace(_map.tileHeight);
+		trace(_map.orientation);
+		// Load the tilesets
+		add(_map.backgroundTiles);
+		
+		// Load player objects
+
+		
 		super.create();
 	}
 	
