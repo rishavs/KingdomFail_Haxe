@@ -9,8 +9,7 @@ import flixel.FlxState;
  */
 class PlayState extends FlxState
 {
-	private var _map:TiledMap;
-	private var _tileSet:TiledTileSet;
+	private var _map:MapLoader;
 
 	/**
 	 * Function that is called up when to state is created to set it up. 
@@ -19,10 +18,7 @@ class PlayState extends FlxState
 	{
 		// Load the tilemap
 		_map = new MapLoader(AssetPaths.map__tmx);
-		trace(_map.width);
-		trace(_map.height);
-		trace(_map.tileHeight);
-		trace(_map.orientation);
+
 		// Load the tilesets
 		add(_map.backgroundTiles);
 		
