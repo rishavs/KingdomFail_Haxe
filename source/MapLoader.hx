@@ -28,6 +28,8 @@ class MapLoader extends TiledMap
 			var processedPath = "assets/images/tiles/sheet.png";
 			
 			var tilemap:FlxTilemap = new FlxTilemap();
+			tilemap.widthInTiles = width;
+			tilemap.heightInTiles = height;
 			tilemap.loadMap(tileLayer.tileArray, processedPath, 128, 64, 0, 1, 1, 1);
 
 			backgroundTiles.add(tilemap);
